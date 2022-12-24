@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center" style="width: 500px;">
-  <img title="#rocketcoffe" src="./assets/preview.png">
+  <img title="#rocketcoffe" src="./assets/img/preview.png">
 </p>  
 
 ### 💻 Sobre o desafio

@@ -1,0 +1,37 @@
+body {
+    background: #000;
+    color: #FFF;
+} #head {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    left: 220px;
+    position: relative;
+} #rocket-logo-svg {
+    width: 30px;
+    margin-right: 140px;
+} .btn {
+    background: none;
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    transition: 400ms;
+} .btn:hover {
+    color: rgb(159, 56, 255);
+    background: rgb(26, 26, 26);
+    border: 20px rgb(26, 26, 26);
+    
+} main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+} #rocket-coffe {
+    width: 600px;
+} #blur-up {
+    bottom: 80px;
+    right: -0px;
+    position: absolute;
+} #blur-down {
+    top: 80px;
+    left: -50px;
+    position: absolute;
+}
