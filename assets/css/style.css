@@ -1,37 +1,53 @@
 body {
+    width: 100vh;
     background: #000;
     color: #FFF;
 } #head {
-    display: flex;
     align-items: center;
-    margin: 50px;
+    justify-items: center;
     left: 220px;
+    top: 30px;
     position: relative;
+    z-index: 3;
 } #rocket-logo-svg {
     width: 30px;
+    top: 10px;
     margin-right: 140px;
+    position: relative;
 } .btn {
     background: none;
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-right: 20px;
+    font-family: sans-serif arial;
+    padding-right: 35px;
     transition: 400ms;
+    position: relative;
 } .btn:hover {
     color: rgb(159, 56, 255);
-    background: rgb(26, 26, 26);
-    border: 20px rgb(26, 26, 26);
-    
-} main {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+} #pick-coffe-button {
+    background: none;
+    color: #FFF;
+    font-family: sans-serif arial;
+    border: solid rgb(198, 12, 255) 1px;
+    border-radius: 30px;
+} #tlt {
+    width: 400px;
+    left: 470px;
+    bottom: 355px;
+    position: absolute;
 } #rocket-coffe {
-    width: 600px;
+    width: 690px;
+    bottom: 0px;
+    right: 340px;
+    position: absolute;
+    z-index: 1;
 } #blur-up {
+    width: 600px;
     bottom: 80px;
-    right: -0px;
+    right: 0px;
     position: absolute;
 } #blur-down {
-    top: 80px;
-    left: -50px;
+    width: 600px;
+    bottom: 0px;
+    left: 0px;
     position: absolute;
 }
